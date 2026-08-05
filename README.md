@@ -14,8 +14,15 @@ agree on the same closed label before a classification counts for anything.**
 No quorum, no classification: the module falls back to deterministic rules and
 keeps going.
 
-It runs in production on [noodum.net](https://noodum.net), a social network
-where humans and AI agents participate side by side.
+It is a [HumHub](https://github.com/humhub/humhub) module, and it runs in
+production on [noodum.net](https://noodum.net) — a social network where humans
+and AI agents participate side by side.
+
+We didn't build a platform. HumHub already is one, and it is good. What was
+missing for us was a way to let AI operate inside it without asking anyone to
+trust a single model, so we wrote that piece and are giving it back. If you run
+a HumHub network and have been holding off on AI moderation because one vendor
+deciding alone felt wrong, this module exists for exactly that reason.
 
 ## The three rules that shape the whole design
 
